@@ -49,8 +49,7 @@
   .top::after{content:"";position:absolute;right:-60px;top:-90px;width:280px;height:280px;background:radial-gradient(circle, rgba(0,168,232,.28), transparent 65%);pointer-events:none}
   .top .in{max-width:720px;margin:0 auto;padding:14px 18px;display:flex;align-items:center;justify-content:space-between;gap:10px;position:relative;z-index:2}
   .top .brand{display:flex;align-items:center;gap:12px;min-width:0}
-  .top .brand img{height:38px;width:auto;display:none}
-  .top .brand img[src]:not([src=""]){display:block}
+  .top .brand img{height:42px;width:auto;display:block;background:#fff;border-radius:10px;padding:5px 9px;flex-shrink:0}
   .wordmark{font-size:23px;font-weight:900;letter-spacing:-.03em;line-height:1;color:#fff;flex-shrink:0}
   .wordmark i{font-style:normal;color:var(--accent-2)}
   .top .brand .tl{line-height:1.15;min-width:0;border-left:1px solid rgba(255,255,255,.22);padding-left:12px}
@@ -234,9 +233,7 @@
   <header class="top">
     <div class="in">
       <div class="brand">
-        <!-- Para usar a logo oficial: salve logo-white.png nesta pasta e troque o src abaixo -->
-        <img src="" alt="Ateky Internet">
-        <div class="wordmark">ateky<i>.</i></div>
+        <img src="logo-ateky.png" alt="Ateky Internet" width="115" height="42">
         <div class="tl"><b>Agende online</b><small>Rápido, fácil e 100% pelo celular</small></div>
       </div>
       <a class="back" href="https://ateky.com.br/"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M12 19l-7-7 7-7"/></svg> <span>Voltar</span></a>
